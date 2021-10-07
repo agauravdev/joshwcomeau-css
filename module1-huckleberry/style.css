@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Add styles here! */
+
+strong{
+  color: green;
+}
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin: 50px auto;
+}
+header .max-width-wrapper{
+  padding: 0 20px;
+}
+
+.intro-chunk p{
+  max-width: 300px;
+}
+
+main {
+  background-color: #999999;
+  border-top: 5px solid #666666;
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  padding: 20px
+}
+
+.indented-heading {
+  background-color: #FFC000;
+  border-bottom: 5px solid #CC9900;
+  display: inline-block;
+  margin-left: -30px;
+  margin-top: -13px;
+  padding: 20px 35px;
+
+}
